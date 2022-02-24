@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GraphQLAndComposePOC</string>
+    <string name="default_title">Anonymus</string>
+    <string name="no_data">No data</string>
+    <string name="mission_name_title">Mission name:</string>
+    <string name="mission_date_title">Mission date:</string>
+    <string name="rocket_name_title">Rocket name:</string>
+    <string name="launch_site_title">Launch site:</string>
+
+    <string name="ship_name_title">Ship name:</string>
+    <string name="ship_home_port_title">Ship home port:</string>
+    <string name="ship_landings_title">Successful landings:</string>
+    <string name="ship_weight_title">Weight:</string>
+    <string name="ship_age_title">Year built in:</string>
+    <string name="launch">LAUNCH ROCKET</string>
+</resources>
