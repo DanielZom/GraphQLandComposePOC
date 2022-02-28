@@ -1,10 +1,11 @@
 buildscript {
     ext {
         compose_version = '1.0.1'
-        graphqL_version = '2.5.11'
+        graphql_version = '2.5.11'
+        koin_version = '3.2.0-beta-1'
     }
     dependencies {
-        classpath("com.apollographql.apollo:apollo-gradle-plugin:$graphqL_version")
+        classpath("com.apollographql.apollo:apollo-gradle-plugin:$graphql_version")
     }
 }// Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {

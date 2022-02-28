@@ -70,8 +70,8 @@ dependencies {
     implementation "androidx.constraintlayout:constraintlayout-compose:1.0.0"
 
     //GraphQL
-    implementation "com.apollographql.apollo:apollo-runtime:$graphqL_version"
-    implementation "com.apollographql.apollo:apollo-coroutines-support:$graphqL_version"
+    implementation "com.apollographql.apollo:apollo-runtime:$graphql_version"
+    implementation "com.apollographql.apollo:apollo-coroutines-support:$graphql_version"
 
     //Coil
     implementation "io.coil-kt:coil-compose:1.4.0"
@@ -84,4 +84,8 @@ dependencies {
 
     //Viewpager
     implementation "com.google.accompanist:accompanist-pager:0.20.3"
+
+    //Koin
+    implementation "io.insert-koin:koin-core:$koin_version"
+    implementation "io.insert-koin:koin-android:$koin_version"
 }
